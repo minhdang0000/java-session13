@@ -15,6 +15,7 @@ public class Main {
             System.out.println("3. Hiển thị danh sách người dùng");
             System.out.println("4. Thoát");
             System.out.print("Lựa chọn của bạn: ");
+            choice = Integer.parseInt(sc.nextLine());
             switch(choice){
                 case 1:{
                     System.out.print("Nhập tên người dùng: ");
@@ -66,7 +67,7 @@ public class Main {
                     break;
                 }
             }
-            choice = Integer.parseInt(sc.nextLine());
+            
         }while (choice != 4);
     }
 }
